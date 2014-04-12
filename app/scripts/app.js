@@ -6,7 +6,9 @@ angular
     'ngResource',
     'ngSanitize',
     'ngRoute',
-	'ui.bootstrap'
+	'ui.bootstrap',
+	'firebase',
+	'google-maps'
   ])
   .config(function ($routeProvider) {
     $routeProvider
